@@ -1,5 +1,8 @@
 let num=5;
-for(let i=0;i<=num;i++){
-	co++
+let isPrime="Yes";
+for(let i=2;i<num;i++){
+	if(num%i==0){
+		isPrime="No";
+	}
 }
-console.log("prime)
+console.log(isPrime);
